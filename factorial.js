@@ -13,6 +13,7 @@ function factorial(n) {
     return result;
 }
 const assert = require('assert');
+
 assert.strictEqual(
     factorial(1),
     1,
